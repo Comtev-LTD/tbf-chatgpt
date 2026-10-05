@@ -1,6 +1,6 @@
 {
   "name": "tbf-cards",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Start tbf group cards and look after them from a chat.",
   "author": {
     "name": "tbf",
@@ -9,26 +9,37 @@
   },
   "homepage": "https://tbfcards.com/",
   "license": "Proprietary",
-  "keywords": ["group card", "leaving card", "birthday card", "cards"],
+  "keywords": [
+    "group card",
+    "leaving card",
+    "birthday card",
+    "cards"
+  ],
   "skills": "./skills/",
   "mcpServers": "./.mcp.json",
   "interface": {
     "displayName": "tbf cards",
     "shortDescription": "Start and send group cards",
-    "longDescription": "Start a group card for someone, pick its front, and send everyone the link to sign it. See your cards, move a card's day, and email it to the person when it opens.",
+    "longDescription": "Start a group card for one person, a leaving, birthday or thank you card, and send everyone the link to sign it. Pick its front from tbf's designs, or use a picture you made in the chat. See your cards, move a card's day, and email it to the person when it opens.\n\nWithout signing in, a card waits at its page on tbfcards.com to pay for or take free in the tbf app. Signed in, it goes straight into your tbf app, from this month's free card or a card pack.\n\nIt never writes a note: each person writes their own at the writers' link. It never shows anybody's note, how many people wrote, or the link the person opens.",
     "developerName": "tbf",
     "category": "Productivity",
-    "capabilities": ["Read", "Write"],
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
     "websiteURL": "https://tbfcards.com/",
     "privacyPolicyURL": "https://tbfcards.com/privacy/",
     "termsOfServiceURL": "https://tbfcards.com/terms/",
     "brandColor": "#2E6B5F",
     "defaultPrompt": [
-      "Start a leaving card for Sam on Friday",
-      "Show my cards"
+      "Show me designs for a leaving card"
     ],
-    "composerIcon": "./assets/composer-icon.png",
+    "composerIcon": "./assets/icon.png",
     "logo": "./assets/logo.png",
-    "screenshots": []
+    "screenshots": [
+      "./assets/screenshot-designs.png"
+    ],
+    "supportURL": "https://tbfcards.com/support/",
+    "brandColorDark": "#8FCBB8"
   }
 }
