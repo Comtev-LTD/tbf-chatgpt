@@ -1,0 +1,20 @@
+{
+  "name": "tbf",
+  "interface": {
+    "displayName": "tbf"
+  },
+  "plugins": [
+    {
+      "name": "tbf-cards",
+      "source": {
+        "source": "local",
+        "path": "./plugins/tbf-cards"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

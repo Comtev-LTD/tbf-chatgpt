@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "tbf-cards": {
+      "type": "http",
+      "url": "https://api.tobefair.app/mcp",
+      "oauth_resource": "https://api.tobefair.app/mcp"
+    }
+  }
+}

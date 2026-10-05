@@ -1,0 +1,34 @@
+{
+  "name": "tbf-cards",
+  "version": "1.0.0",
+  "description": "Start tbf group cards and look after them from a chat.",
+  "author": {
+    "name": "tbf",
+    "email": "hello@tobefair.app",
+    "url": "https://tbfcards.com/"
+  },
+  "homepage": "https://tbfcards.com/",
+  "license": "Proprietary",
+  "keywords": ["group card", "leaving card", "birthday card", "cards"],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "tbf cards",
+    "shortDescription": "Start and send group cards",
+    "longDescription": "Start a group card for someone, pick its front, and send everyone the link to sign it. See your cards, move a card's day, and email it to the person when it opens.",
+    "developerName": "tbf",
+    "category": "Productivity",
+    "capabilities": ["Read", "Write"],
+    "websiteURL": "https://tbfcards.com/",
+    "privacyPolicyURL": "https://tbfcards.com/privacy/",
+    "termsOfServiceURL": "https://tbfcards.com/terms/",
+    "brandColor": "#2E6B5F",
+    "defaultPrompt": [
+      "Start a leaving card for Sam on Friday",
+      "Show my cards"
+    ],
+    "composerIcon": "./assets/composer-icon.png",
+    "logo": "./assets/logo.png",
+    "screenshots": []
+  }
+}
